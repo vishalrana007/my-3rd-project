@@ -1,0 +1,1615 @@
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+.img1 {
+    position: relative;
+    width: 100%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ul1 li {
+    max-width: 150px;
+    min-width: 50px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(124, 119, 119);
+    font-weight: 500;
+}
+
+.ul1 {
+    position: absolute;
+    top: 20px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.ul1 li:hover {
+    color: black;
+
+    cursor: pointer;
+}
+
+
+.img2 {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.img3 {
+    position: absolute;
+    top: 40px;
+    right: 650px;
+}
+
+.img3:hover {
+    height: 30px;
+    width: 30px;
+
+}
+
+
+
+.undline1 {
+    height: 10px;
+    max-width: 100%;
+
+    background: rgba(34, 139, 46, 0.872);
+    visibility: hidden;
+}
+
+.box1 {
+    border: 1px solid rgba(0, 0, 0, 0.154);
+    height: 45px;
+    width: 45px;
+    position: relative;
+    visibility: hidden;
+
+
+}
+
+.fa-solid {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+.box1 i {
+    position: absolute;
+    top: 16px;
+    left: 7px
+}
+
+@media(max-width:400px) {
+    .itm2 li {
+        visibility: hidden;
+    }
+
+    .undline1 {
+        visibility: visible;
+        max-width: 100%;
+        margin-top: 53px;
+
+    }
+
+    .img1 {
+        visibility: hidden;
+    }
+
+    .img2 {
+        top: 20px;
+        left: 10px;
+    }
+
+    .box1 {
+        visibility: visible;
+        bottom: 70px;
+        left: 80%;
+        z-index: 1;
+
+
+    }
+
+    .img3 {
+        visibility: hidden;
+    }
+
+    .img4 {
+        position: absolute;
+        bottom: 5%;
+        height: 500px;
+    }
+
+    .cnt1 {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background: white;
+        height: 98px;
+
+    }
+
+    .fa-solid {
+        z-index: 1;
+    }
+
+
+}
+
+.cnt1 {
+
+    z-index: 1;
+    background: white
+}
+
+.cnt2 {
+    position: relative;
+    height: 800px;
+}
+
+.img4 {
+    position: absolute;
+    bottom: 30.5%;
+    width: 100%;
+
+}
+
+.undline2 {
+    position: absolute;
+    border: 1px solid #13a25d;
+    height: 87px;
+    width: 100%;
+    bottom: 25%;
+    background-color: #13a25d;
+}
+
+.cir1 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    margin: 13px;
+    display: inline;
+    border-radius: 100%;
+    left: 45%;
+    top: 22%;
+    background-color: white;
+    transition: 1.2s;
+    box-shadow: inset 0 0 0 0 #000000;
+    cursor: pointer
+}
+
+.cir2 {
+    position: absolute;
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    margin: 13px;
+    display: inline;
+    border-radius: 100%;
+    left: 47%;
+    top: 22%;
+    background-color: white;
+    transition: 1.2s;
+    box-shadow: inset 0 0 0 0 #000000;
+    cursor: pointer
+}
+
+.cir3 {
+    position: absolute;
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    margin: 13px;
+    display: inline;
+    border-radius: 100%;
+    left: 49%;
+    top: 22%;
+    background-color: white;
+    transition: 1.2s;
+    box-shadow: inset 0 0 0 0 #000000;
+    cursor: pointer
+}
+
+.cir4 {
+    position: absolute;
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    margin: 13px;
+    display: inline;
+    border-radius: 100%;
+    left: 51%;
+    top: 22%;
+    background-color: white;
+    transition: 1.2s;
+    box-shadow: inset 0 0 0 0 #000000;
+    cursor: pointer
+}
+
+.cir5 {
+    position: absolute;
+    border: 1px solid white;
+    height: 20px;
+    width: 20px;
+    margin: 13px;
+    display: inline;
+    border-radius: 100%;
+    left: 53%;
+    top: 22%;
+    background-color: white;
+    transition: 1.2s;
+    box-shadow: inset 0 0 0 0 #000000;
+    cursor: pointer;
+}
+
+.cir1:hover,
+.cir2:hover,
+.cir3:hover,
+.cir4:hover,
+.cir5:hover {
+
+    box-shadow: inset 0 0px 0px 50px #000000;
+    border: 1px solid #000000;
+
+}
+
+.cnt2 {
+    position: relative;
+}
+
+.buis {
+    position: absolute;
+
+    height: 450px;
+    width: 500px;
+    left: 22%;
+    bottom: 47%;
+    background: #fff;
+}
+
+.h_1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+    width: 405px;
+    margin-top: 25PX;
+    margin-left: 25px;
+}
+
+.para {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 35px;
+    width: 405px;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: large;
+}
+
+/**about button of contact and read more**/
+.cont_1 {
+    margin-top: 7px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cont {
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 165px;
+    height: 40px;
+    text-align: center;
+    background: #13a25d;
+    border-radius: 45px;
+    margin-top: 45px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: inset 0px 0px 0px #000000;
+}
+
+.read_1 {
+    margin-top: 7px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.read {
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 165px;
+    height: 40px;
+    text-align: center;
+    background: #000000;
+    border-radius: 45px;
+    margin-top: -40px;
+    margin-left: 240px;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: inset 0 0 0 0 #13a25d;
+}
+
+.cont:hover {
+
+    box-shadow: inset -250px 0 0 0 #000000;
+
+
+}
+
+.read:hover {
+
+    box-shadow: inset 250px 0 0 0 #13a25df2;
+    border: 1px solid #13a25d;
+
+
+}
+
+@media(max-width:400px) {
+    .buis {
+        left: 40px;
+        width: 300px;
+        height: 350px;
+        top: 16px;
+    }
+
+    .h_1 {
+        font-size: 35px;
+        width: 300px;
+    }
+
+    .para {
+        font-size: 13px;
+        width: 260px;
+    }
+
+    .img4 {
+        bottom: 348px;
+    }
+
+    .cont {
+        position: absolute;
+        width: 135px;
+        font-size: small;
+        height: 35px;
+        right: 155px;
+    }
+
+    .read {
+        position: absolute;
+        width: 135px;
+        font-size: small;
+        height: 35px;
+        right: 15px;
+        top: 330px;
+    }
+
+    .undline2 {
+        top: 395px;
+    }
+
+    .cir1 {
+        left: 125px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .cir2 {
+        left: 145px;
+        width: 15px;
+        height: 15px
+    }
+
+    .cir3 {
+        left: 165px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .cir4 {
+        left: 185px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .cir5 {
+        left: 205px;
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/* about nxt para */
+.nxtpara {
+    position: relative;
+}
+
+.line {
+    height: 2px;
+    width: 200px;
+    background: #000000;
+    position: absolute;
+    left: 740px;
+    top: -50px;
+}
+
+.hd2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 550px;
+    top: -85px;
+}
+
+.parainnxt {
+    margin-left: 550px;
+    font-weight: 450;
+    position: absolute;
+    top: -25px;
+}
+
+.about2{
+    height: 280px;
+    margin-left: 550px;
+    margin-top: 95px;
+}
+
+.bofphoto {
+    height: 350px;
+    width: 80px;
+    background: #13a25d;
+    margin-left: 515px;
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+}
+
+.lpop {
+    width: 520px;
+    float: right;
+    margin-top: 226px;
+    margin-right: 345px;
+}
+
+
+.r1 {
+    position: relative;
+    border: 1px solid none;
+    background: #000;
+    width: 156px;
+    text-align: center;
+    height: 40px;
+    float: right;
+    margin-right: 350px;
+    transition: 1s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.r2 {
+    position: absolute;
+    top: 8px;
+    right: 25%;
+    color: white;
+}
+
+.r1:hover {
+
+    box-shadow: inset 250px 0 0 0 #13a25d;
+    border: 1px solid #13a25d
+}
+
+/*responsive of nxtpara  */
+@media(max-width:400px) {
+    .nxtpara {
+        position: absolute;
+        right: 0;
+        top: 750px;
+    }
+
+    .hd2 {
+        bottom: 120px;
+    }
+
+    .line {
+        width: 120px;
+
+    }
+
+    .parainnxt {
+        width: 350px;
+        position: absolute;
+
+
+    }
+
+    .about2{
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .bofphoto {
+        height: 270px;
+    }
+
+    .lpop {
+        position: absolute;
+        left: 520px;
+        width: 350px;
+        top: 150px
+    }
+
+    .r1 {
+        left: 325px;
+        top: 180px;
+        z-index: -1;
+    }
+}
+
+/* about third part of the page */
+.thirdt {
+    position: relative;
+}
+
+#halfshade {
+    visibility: visible;
+    margin-top: 200px;
+    width: 100%;
+
+}
+
+.hdt {
+    position: absolute;
+    top: 310px;
+    font-size: 40px;
+    font-weight: 700;
+    left: 400px;
+
+}
+
+.line2 {
+    position: absolute;
+    top: 340px;
+    left: 700px;
+    height: 3px;
+    width: 200px;
+    background: #000000;
+
+}
+
+.paraint {
+    font-weight: 450;
+    position: absolute;
+    top: 370px;
+    left: 405px;
+}
+
+.icon1 {
+    position: absolute;
+    top: 450px;
+    left: 400px;
+}
+
+.hoficon1 {
+    position: absolute;
+    top: 515px;
+    left: 380px;
+}
+
+.pinicon1 {
+    width: 210px;
+    position: absolute;
+    top: 550px;
+    left: 380px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
+
+.hoficon2 {
+    position: absolute;
+    top: 515px;
+    left: 795px;
+}
+
+.pinicon2 {
+    width: 210px;
+    position: absolute;
+    top: 550px;
+    left: 795px;
+}
+
+.icon3 {
+    position: absolute;
+    top: 450px;
+    right: 650px;
+}
+
+.hoficon3 {
+    position: absolute;
+    top: 515px;
+    right: 580px;
+}
+
+.pinicon3 {
+    width: 210px;
+    position: absolute;
+    top: 550px;
+    right: 495px;
+}
+
+.icon4 {
+    position: absolute;
+    bottom: 230px;
+    left: 400px;
+}
+
+.hoficon4 {
+    position: absolute;
+    bottom: 190px;
+    left: 378px;
+}
+
+.pinicon4 {
+    width: 210px;
+    position: absolute;
+    bottom: 55px;
+    left: 378px;
+}
+
+.icon5 {
+    position: absolute;
+    bottom: 230px;
+    left: 795px;
+}
+
+.hoficon5 {
+    position: absolute;
+    bottom: 190px;
+    left: 785px;
+}
+
+.pinicon5 {
+    width: 210px;
+    position: absolute;
+    bottom: 55px;
+    left: 785px;
+}
+
+.icon6 {
+    position: absolute;
+    bottom: 230px;
+    right: 650px;
+}
+
+.hoficon6 {
+    position: absolute;
+    bottom: 190px;
+    right: 485px;
+}
+
+.pinicon6 {
+    width: 210px;
+    position: absolute;
+    bottom: 55px;
+    right: 495px;
+}
+
+/* responsive part of thirdt */
+@media(max-width:400px) {
+    #halfshade {
+        width: 400px;
+        visibility: hidden;
+    }
+
+    .hdt {
+        top: 400px;
+        left: 25px;
+        font-size: 35px;
+    }
+
+    .line2 {
+        top: 425px;
+        left: 245px;
+        width: 130px;
+    }
+
+    .paraint {
+        top: 480px;
+        left: 20px;
+
+    }
+
+    .icon1 {
+        top: 550px;
+        left: 50px
+    }
+
+    .hoficon1 {
+        top: 603px;
+        left: 35px
+    }
+
+    .pinicon1 {
+        top: 640px;
+        left: 35px;
+        width: 280px;
+    }
+
+    .icon2 {
+        top: 800px;
+        left: 50px
+    }
+
+    .hoficon2 {
+        top: 870px;
+        left: 35px
+    }
+
+    .pinicon2 {
+        top: 920px;
+        left: 35px;
+        width: 280px;
+    }
+
+    .icon3 {
+        top: 300%;
+        left: 50px
+    }
+
+    .hoficon3 {
+        top: 317%;
+        left: 35px
+    }
+
+    .pinicon3 {
+        top: 332%;
+        left: 35px;
+        width: 280px;
+    }
+
+    .icon4 {
+        top: 374%;
+        left: 50px
+    }
+
+    .hoficon4 {
+        top: 388%;
+        left: 35px
+    }
+
+    .pinicon4 {
+        top: 398%;
+        left: 35px;
+        width: 280px;
+    }
+
+    .icon5 {
+        top: 445%;
+        left: 50px
+    }
+
+    .hoficon5 {
+        top: 460%;
+        left: 35px
+    }
+
+    .pinicon5 {
+        top: 473%;
+        left: 35px;
+        width: 280px;
+    }
+
+}
+
+/* about afterhalshade */
+.afterhalfshade {
+    position: relative;
+}
+
+.blog_1 {
+    margin-left: 376px;
+    margin-top: 96px;
+}
+
+.hofblog {
+    font-size: 40px;
+    font-weight: 700;
+    width: 520px;
+    margin-left: 55%;
+    position: absolute;
+    top: 135px;
+}
+
+.pofblog {
+    width: 520px;
+    font-weight: 490;
+    margin-left: 55%;
+    position: absolute;
+    top: 280px;
+}
+
+.r3 {
+    position: relative;
+    border: 1px solid none;
+    background: #000;
+    width: 156px;
+    text-align: center;
+    height: 40px;
+    float: right;
+    margin-right: 350px;
+    transition: 1s;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 25%;
+}
+
+.r3_1 {
+    position: absolute;
+    top: 8px;
+    right: 25%;
+    color: white;
+}
+
+.r3:hover {
+
+    box-shadow: inset 250px 0 0 0 #13a25d;
+    border: 1px solid #13a25d
+}
+
+/* responsive of aftershade */
+@media(max-width:400px) {
+
+
+    .blog_1 {
+        position: absolute;
+        width: 305px;
+        margin-top: 385%;
+        margin-left: 0;
+        left: 45px;
+    }
+
+    .hofblog {
+        margin-top: 415%;
+        width: 385px;
+        position: absolute;
+        right: 0px;
+        font-size: x-large;
+    }
+
+    .pofblog {
+        margin-top: 400%;
+        width: 365px;
+        position: absolute;
+        right: 15px;
+
+    }
+
+    .r3 {
+        margin-top: 510%;
+        position: absolute;
+
+        left: 205px;
+
+    }
+}
+
+/* about video section */
+.afterblog {
+    position: relative;
+}
+
+.hofvideo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-left: 32%
+}
+
+.video {
+    margin-left: 20%;
+    margin-top: 5%;
+    ;
+}
+
+.play {
+    z-index: 1;
+    position: absolute;
+    left: 48%;
+    margin-top: 14%;
+    cursor: pointer;
+    transition: 1s linear;
+
+}
+
+.see {
+    position: relative;
+    border: 1px solid none;
+    background: #000;
+    width: 156px;
+    text-align: center;
+    height: 40px;
+    float: right;
+    margin-right: 45%;
+    transition: 1s;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 5%;
+}
+
+.s_1 {
+    position: absolute;
+    top: 8px;
+    right: 25%;
+    color: white;
+}
+
+.see:hover {
+
+    box-shadow: inset 250px 0 0 0 #13a25d;
+    border: 1px solid #13a25d
+}
+
+.crop {
+    visibility: hidden;
+}
+
+/* responsive of video section */
+@media(max-width:400px) {
+    .hofvideo {
+        margin-top: 525%;
+        font-size: 25px;
+        margin-left: 0;
+        margin-left: 25px;
+        width: 350px;
+    }
+
+    .video {
+        width: 350px;
+        margin-left: 0;
+        height: 145px;
+        margin-left: 22px;
+        visibility: hidden;
+
+    }
+
+    .play {
+        height: 45px;
+        z-index: 1;
+        margin-top: 100px;
+    }
+
+    .crop {
+        visibility: visible;
+        width: 350px;
+        margin-left: 0;
+        height: 145px;
+        margin-left: 22px;
+        z-index: -1;
+        margin-top: -240px;
+    }
+
+    .see {
+        left: 38px;
+    }
+}
+
+/* about Touch portion */
+.touch {
+    border: 1px solid none;
+    height: 810px;
+    width: 100%;
+    margin-top: -180px;
+    background-image: url(contact-bg.png);
+    position: relative;
+}
+
+.hoftouch {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 25%;
+    position: absolute;
+    top: 12%;
+
+}
+
+.line3 {
+    height: 2px;
+    width: 200px;
+    background: #ffffff;
+    position: absolute;
+    top: 16%;
+    margin-left: 39%;
+
+}
+
+.paraoftouch {
+    color: #fff;
+    margin-left: 25%;
+    position: absolute;
+    top: 20%;
+}
+
+.name {
+    height: 35px;
+    width: 490px;
+    display: block;
+    position: absolute;
+    top: 32%;
+    margin-left: 25%;
+
+}
+
+.num {
+    height: 35px;
+    width: 490px;
+    display: block;
+    position: absolute;
+    top: 40%;
+    margin-left: 25%;
+
+}
+
+.email2{
+    height: 35px;
+    width: 490px;
+    display: block;
+    position: absolute;
+    top: 48%;
+    margin-left: 25%;
+
+}
+
+.msg {
+    height: 195px;
+    width: 490px;
+    display: block;
+    position: absolute;
+    top: 56%;
+    margin-left: 25%;
+
+}
+
+.send {
+    position: relative;
+    border: 1px solid none;
+    background: #13a25d;
+    width: 156px;
+    text-align: center;
+    height: 40px;
+    float: right;
+    right: 65%;
+    top: 86%;
+    transition: 1s;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.send_1 {
+    position: absolute;
+    top: 8px;
+    right: 40%;
+    color: white;
+}
+
+.send:hover {
+
+    box-shadow: inset 250px 0 0 0 #000000;
+
+}
+
+.map {
+    width: 490px;
+    margin-left: 55%;
+    margin-top: 4.5%;
+    height: 380px;
+}
+
+#mappic {
+    width: 400px;
+    visibility: hidden;
+}
+
+/* responsive of touch section */
+@media(max-width:400px) {
+    .touch {
+        margin-top: 23%;
+        height: 900px;
+    }
+
+    .hoftouch {
+        font-size: 25px;
+        margin-left: 0;
+        margin-left: 20px;
+
+    }
+
+    .line3 {
+        margin-left: 246px;
+        width: 130px
+    }
+
+    .paraoftouch {
+        margin-left: 0;
+        margin-left: 25px;
+    }
+
+    .name {
+        width: 330px;
+        margin-left: 0;
+        margin-left: 28px;
+        height: 46px;
+    }
+
+    .num {
+        width: 330px;
+        margin-left: 0;
+        margin-left: 28px;
+        height: 46px;
+    }
+
+    .email2{
+        width: 330px;
+        margin-left: 0;
+        margin-left: 28px;
+        height: 46px;
+    }
+
+    .msg {
+        width: 330px;
+        margin-left: 0;
+        margin-left: 28px;
+
+    }
+
+    .send {
+
+        position: absolute;
+        left: 9%;
+        bottom: 25%;
+    }
+
+    .map {
+        margin-left: 0;
+        margin-left: 20px;
+        width: 360px;
+        margin-top: 700px;
+        z-index: -1;
+        ;
+    }
+
+
+}
+
+
+
+.map {
+
+    position: absolute;
+    top: 22%;
+    left: 0;
+    margin-right: 56%;
+}
+
+/* about Testimonial */
+.testimonial {
+    font-size: 35px;
+    margin-left: 43%;
+    margin-top: 6%;
+    position: relative;
+
+}
+
+#paratest {
+    font-size: large;
+    margin-left: -159px;
+    font-weight: 400;
+}
+
+.firstbox {
+    border: 1px solid none;
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    right: 995px;
+    margin-top: 60px;
+    box-shadow: 1px 1px 1px 5px rgba(128, 128, 128, 0.085);
+}
+
+.jonimo {
+    margin-top: 50px;
+    font-size: 26px;
+    color: #13a25d;
+    margin-left: 25px;
+}
+
+.lorem1 {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.linejonimo {
+    width: 480px;
+    height: 2px;
+    background: #000;
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+#coma {
+    margin-left: 450px;
+    position: absolute;
+    top: 65px;
+}
+
+.secndbox {
+    border: 1px solid none;
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    right: 295px;
+    margin-top: 60px;
+    box-shadow: 1px 1px 1px 5px rgba(128, 128, 128, 0.085);
+}
+
+.circle1 {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    background: black;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin-left: 8%;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 0 black;
+}
+
+.circle2 {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    background: black;
+    border-radius: 50%;
+    margin-top: -23px;
+    margin-left: 20.5%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sqr {
+    height: 20px;
+    width: 80px;
+    border: 1px solid none;
+    background: rgba(24, 196, 44, 0.962);
+    border-radius: 25px;
+    margin-top: -23px;
+    margin-left: 11.5%;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: inset 0 0 0 0 black;
+}
+
+.circle1:hover,
+.circle2:hover {
+
+    box-shadow: inset 250px 0 0 0 rgba(24, 196, 44, 0.962);
+    border: 1px solid rgba(24, 196, 44, 0.962);
+}
+
+.sqr:hover {
+
+    box-shadow: inset 250px 0 0 0 rgba(0, 0, 0, 0.962);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+/* responsive of testomonial */
+@media(max-width:400px) {
+    .testimonial {
+        margin-top: 110%;
+        position: relative;
+
+    }
+
+    .Test1 {
+        margin-left: -80px;
+    }
+
+    #paratest {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .firstbox {
+        position: absolute;
+        left: 0;
+        left: -150px;
+        width: 350px;
+    }
+
+    .lorem1 {
+        width: 300px;
+    }
+
+    .linejonimo {
+        width: 300px;
+    }
+
+    #coma {
+        margin-left: 300px;
+    }
+
+    .secndbox {
+        position: absolute;
+        width: 350px;
+        margin-top: 225%;
+        left: 0;
+        left: -150px
+    }
+
+    .circle1 {
+        position: absolute;
+        top: 985px;
+        left: 0;
+        left: -50px;
+    }
+
+    .circle2 {
+        margin-left: 0;
+        margin-left: 6px;
+        position: absolute;
+        margin-top: 977px;
+
+    }
+
+    .sqr {
+        position: absolute;
+        top: 1120px;
+        width: 60px;
+        left: 20px;
+    }
+}
+
+/* about last section */
+.lastsec {
+    margin-top: 40px;
+    border: 1px solid none;
+    background: #000000f1;
+    position: relative;
+    height: 500px;
+}
+
+.location {
+    color: #ffffff9b;
+    font-weight: 500;
+}
+
+.call1 {
+    color: #ffffff9b;
+    font-weight: 500;
+}
+
+.mail1 {
+    color: #ffffff9b;
+    font-weight: 500;
+}
+
+.locsec {
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+}
+
+.callsec {
+    margin-left: 46%;
+    position: absolute;
+    top: 10%;
+}
+
+.mailsec {
+    margin-left: 68%;
+    position: absolute;
+    top: 10%
+}
+
+.about {
+    color: #fff;
+    position: absolute;
+    top: 34%;
+    left: 475px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.paraofabout {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff94;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.services {
+    color: #fff;
+    position: absolute;
+    top: 33%;
+    left: 880px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.paraofservices {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff94;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.Subsec {
+    color: #fff;
+    position: absolute;
+    top: 33%;
+    right: 480px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.email {
+    position: absolute;
+    top: 60px;
+    width: 350px;
+    right: 0;
+    left: 10px;
+    left: -18px;
+    background: #000000cb;
+    height: 40px
+    ;
+}
+
+.down {
+    color: rgba(24, 196, 44, 0.962);
+    position: absolute;
+    top: 125px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 115%;
+
+}
+
+.twitter {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.link {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.insta {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.yt {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #fff;
+    position: absolute;
+    top: 90%;
+    left: 42%;
+}
+
+/* responsive of last section */
+@media(max-width:400px) {
+    .lastsec {
+        margin-top: 265%;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .locsec {
+        margin-top: 0;
+        margin-left: 0;
+        margin-left: 20px;
+    }
+
+    .callsec {
+        margin-top: 0;
+        margin-left: 0;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+
+    .mailsec {
+        margin-top: 0;
+        margin-left: 0;
+        margin-left: 20px;
+        margin-top: 49px;
+    }
+
+    .about {
+        position: absolute;
+        left: 0;
+        left: 30px;
+        top: 24%;
+    }
+
+    .services {
+        margin-top: 28%;
+
+        position: absolute;
+        left: 0;
+        left: 34px
+    }
+
+    .down {
+        position: absolute;
+        margin-left: 120px;
+        margin-top: 300px;
+
+    }
+
+    .email {
+        margin-left: 120px;
+        width: 350px;
+        margin-top: 300px;
+        height: 40px;
+
+    }
+
+    .hofsub {
+        position: absolute;
+        left: 120px;
+        margin-top: 300px;
+    }
+
+    .icon {
+        position: absolute;
+        left: 150px;
+        margin-top: 500px;
+        display: flex;
+      padding: 25px;  
+
+    }
+.twitter{
+    margin-left: 20px;
+}
+.link{
+    margin-left: 20px;
+}
+.yt{
+    margin-left: 20px;
+}
+.insta{
+    margin-left: 20px;
+}
+    .copyright {
+        position: absolute;
+        left: 30px;
+        margin-top: 60px;
+      
+       
+        font-size: 13px;
+    }
+}
